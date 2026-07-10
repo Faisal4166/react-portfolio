@@ -22,7 +22,7 @@ const Contact = () => {
 
               <div>
                 <h3>Email</h3>
-                <p>hello@example.com</p>
+                <p>jaspreetshien@gmail.com</p>
               </div>
             </div>
 
@@ -31,7 +31,7 @@ const Contact = () => {
 
               <div>
                 <h3>GitHub</h3>
-                <p>github.com/johndoe</p>
+                <p>github.com/jaspreetshien</p>
               </div>
             </div>
 
@@ -40,7 +40,7 @@ const Contact = () => {
 
               <div>
                 <h3>LinkedIn</h3>
-                <p>linkedin.com/in/johndoe</p>
+                <p>linkedin.com/in/jaspreetshien</p>
               </div>
             </div>
           </div>
