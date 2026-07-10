@@ -1,0 +1,149 @@
+/* Reset */
+
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+}
+
+
+html {
+
+  scroll-behavior: smooth;
+
+}
+
+
+body {
+
+  font-family:
+    "Inter",
+    "Segoe UI",
+    Arial,
+    sans-serif;
+
+  background:
+    linear-gradient(135deg,
+      #050816,
+      #111827,
+      #1e1b4b);
+
+  color: white;
+
+  min-height: 100vh;
+
+}
+
+
+/* Remove default styles */
+
+
+button,
+input,
+textarea {
+
+  font-family: inherit;
+
+}
+
+
+img {
+
+  max-width: 100%;
+
+  display: block;
+
+}
+
+
+
+/* Links */
+
+
+a {
+
+  color: inherit;
+
+}
+
+
+
+/* Scrollbar */
+
+
+::-webkit-scrollbar {
+
+  width: 10px;
+
+}
+
+
+::-webkit-scrollbar-track {
+
+  background: #050816;
+
+}
+
+
+::-webkit-scrollbar-thumb {
+
+  background:
+    linear-gradient(#8b5cf6,
+      #2563eb);
+
+  border-radius: 20px;
+
+}
+
+
+
+/* Container */
+
+
+.container {
+
+  width: 100%;
+
+  max-width: 1300px;
+
+  margin: auto;
+
+  padding-left: 40px;
+
+  padding-right: 40px;
+
+}
+
+
+
+/* Responsive container */
+
+
+@media(max-width:768px) {
+
+  .container {
+
+    padding-left: 24px;
+
+    padding-right: 24px;
+
+  }
+
+}
+
+
+@media(max-width:480px) {
+
+  .container {
+
+    padding-left: 18px;
+
+    padding-right: 18px;
+
+  }
+
+}

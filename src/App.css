@@ -1,0 +1,142 @@
+/* Main Application Styles */
+
+.app {
+
+  min-height: 100vh;
+
+  position: relative;
+
+  overflow: hidden;
+
+}
+
+
+/* Global background effects */
+
+
+.app::before {
+
+  content: "";
+
+  position: fixed;
+
+  width: 500px;
+
+  height: 500px;
+
+  top: -200px;
+
+  left: -200px;
+
+  border-radius: 50%;
+
+  background:
+    rgba(139, 92, 246, .25);
+
+  filter:
+    blur(120px);
+
+  z-index: -1;
+
+}
+
+
+.app::after {
+
+  content: "";
+
+  position: fixed;
+
+  width: 500px;
+
+  height: 500px;
+
+  bottom: -200px;
+
+  right: -200px;
+
+  border-radius: 50%;
+
+  background:
+    rgba(37, 99, 235, .25);
+
+  filter:
+    blur(120px);
+
+  z-index: -1;
+
+}
+
+
+
+/* Section common spacing */
+
+section {
+
+  scroll-margin-top: 90px;
+
+}
+
+
+
+/* Selection */
+
+::selection {
+
+  background: #8b5cf6;
+
+  color: white;
+
+}
+
+
+
+/* Smooth animation */
+
+.fade-in {
+
+  animation:
+    fadeIn .8s ease forwards;
+
+}
+
+
+@keyframes fadeIn {
+
+  from {
+
+    opacity: 0;
+
+    transform:
+      translateY(20px);
+
+  }
+
+
+  to {
+
+    opacity: 1;
+
+    transform:
+      translateY(0);
+
+  }
+
+}
+
+
+
+/* Responsive */
+
+@media(max-width:768px) {
+
+  .app::before,
+  .app::after {
+
+    width: 300px;
+
+    height: 300px;
+
+  }
+
+}
