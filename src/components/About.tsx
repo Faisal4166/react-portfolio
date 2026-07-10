@@ -7,7 +7,7 @@ const About = () => {
         <div className="about-image">
           <div className="about-card">
             <img
-              src="https://via.placeholder.com/450x500.png?text=About+Image"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCtTRQ-RHBGleCGcRWml0hVyl8Pd7fdo2I4IBlN_Ax9Ef9R96iPpPSUHaoHLrVCA3XIu884fuv6YeA-UAH23CNuCDUuHOVbyLHa2sKI4mv&s=10"
               alt="About Me"
             />
           </div>
