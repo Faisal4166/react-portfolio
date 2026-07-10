@@ -56,7 +56,7 @@ const Hero = () => {
         <div className="hero-image">
           <div className="image-card">
             <img
-              src="https://lh3.googleusercontent.com/a-/ALV-UjUFQyBnHLDHGsH9BsselgtUqhRaEKxeQlWvyDyJC7IcSReZGw_Y=s529-p-k-rw-no"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuOlwQO1kyeZDK5zw506uHv4surUf275A3z81rMp6xrA&s=10"
               alt="Profile"
             />
           </div>
