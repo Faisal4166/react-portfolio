@@ -56,7 +56,7 @@ const Hero = () => {
         <div className="hero-image">
           <div className="image-card">
             <img
-              src="https://via.placeholder.com/420x420.png?text=Your+Photo"
+              src="https://lh3.googleusercontent.com/a-/ALV-UjUFQyBnHLDHGsH9BsselgtUqhRaEKxeQlWvyDyJC7IcSReZGw_Y=s529-p-k-rw-no"
               alt="Profile"
             />
           </div>
