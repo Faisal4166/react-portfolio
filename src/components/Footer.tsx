@@ -43,7 +43,7 @@ const Footer = () => {
       </div>
 
       <div className="footer-bottom">
-        <p>© {new Date().getFullYear()} John Doe. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Jaspreet Shien. All rights reserved.</p>
       </div>
     </footer>
   );
