@@ -13,7 +13,7 @@ const Hero = () => {
           <span className="hero-badge">👋 Welcome to my portfolio</span>
 
           <h1>
-            Hi, I'm <span>John Doe</span>
+            Hi, I'm <span>Jaspreet</span>
           </h1>
 
           <h2>React & TypeScript Developer</h2>
